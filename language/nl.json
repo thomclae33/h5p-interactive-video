@@ -46,11 +46,11 @@
                     "fields":[
                       {
                         "label":"Track label",
-                        "description":"Used if you offer multiple tracks and the user has to choose a track. For instance 'Spanish subtitles' could be the label of a Spanish subtitle track.",
+                        "description":"Wordt gebruikt indien je meerdere tracks aanbiedt en de gebruiker de track kan kiezen. Voorbeeld: 'Spaanse ondertitels' kan het label zijn voor een Spaanse ondertitels track.",
                         "default":"Ondertitels"
                       },
                       {
-                        "label":"Type of text track",
+                        "label":"Soort text track",
                         "default":"ondertitels",
                         "options":[
                           {
@@ -113,11 +113,11 @@
                     "default":"button"
                   },
                   {
-                    "label":"Turn into button on small screens"
+                    "label":"Verander in een knop op kleine schermen."
                   },
                   {
                     "label":"Label",
-                    "description":"Label displayed next to interaction icon."
+                    "description":"Label getoond naast het interactie-icoon."
                   },
                   {
                     
@@ -141,20 +141,20 @@
                     "label":"Aanpasbaar",
                     "fields":[
                       {
-                        "label":"Action on all correct",
+                        "label":"Actie bij alle juiste antwoorden",
                         "fields":[
                           {
-                            "label":"Seek to",
+                            "label":"Navigeer naar",
                             "description":"Voer de tijdcode in als M:SS format"
                           },
                           {
-                            "label":"Allow the user to opt out and continue"
+                            "label":"Sta de gebruiker toe om te stoppen en verder te gaan."
                           },
                           {
                             "label":"Bericht"
                           },
                           {
-                            "label":"Label for seek button"
+                            "label":"Label voor navigatieknop"
                           }
                         ]
                       },
@@ -162,23 +162,23 @@
                         "label":"Action on wrong",
                         "fields":[
                           {
-                            "label":"Seek to",
-                            "description":"Voer de tijdcode in als M:SS format"
+                            "label":"Navigeer naar",
+                            "description":"Voer de tijdcode in als M:SS formaat"
                           },
                           {
-                            "label":"Allow the user to opt out and continue"
+                            "label":"Sta de gebruiker toe om te stoppen en verder te gaan."
                           },
                           {
                             "label":"Bericht"
                           },
                           {
-                            "label":"Label for seek button"
+                            "label":"Label voor navigatieknop"
                           }
                         ]
                       },
                       {
-                        "label":"Require full score for task before proceeding",
-                        "description":"For best functionality this option should be used in conjunction with the \"Prevent skipping forward in a video\" option of Interactive Video."
+                        "label":"Eis een volledige score om verder te gaan.",
+                        "description":"Voor de beste functionaliteit combineer je deze optie met de \"Voorkom vooruitbladeren in de video\" optie van Interactieve Video."
                       }
                     ]
                   },
@@ -199,7 +199,7 @@
                     ]
                   },
                   {
-                    "label":"Go to on click",
+                    "label":"Bij klikken, ga naar",
                     "fields":[
                       {
                         "label":"Type",
@@ -213,8 +213,8 @@
                         ]
                       },
                       {
-                        "label":"Go To",
-                        "description":"The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS."
+                        "label":"Ga naar",
+                        "description":"Het tijdstip waar de gebruiker naartoe gaat wanneer de hotspot aangeklikt wordt. Vul de timecode in met het M:SS. formaat"
                       },
                       {
                         "label":"URL",
@@ -244,7 +244,7 @@
                       },
                       {
                         "label":"Visualiseren",
-                        "description":"Show that interaction can be clicked by adding a border and an icon"
+                        "description":"Toon dat de interactie aangeklikt kan worden a.d.h.v. een rand en een icoon."
                       }
                     ]
                   }
@@ -288,18 +288,18 @@
       "fields":[
         {
           "label":"Begin video op",
-          "description":"Voer de tijdcode in als M:SS format"
+          "description":"Voer de timecode in als M:SS formaat"
         },
         {
           "label":"Auto-play video",
-          "description":"Start playing the video automatically"
+          "description":"Speel de video automatisch"
         },
         {
-          "label":"Loop the video",
-          "description":"Check if video should run in a loop"
+          "label":"Loop de video",
+          "description":"Duid aan om de video te laten herhalen in een loop."
         },
         {
-          "label":"Override \"Show Solution\" button",
+          "label":"Overschrijf \"Toon oplossing\" knop",
           "description":"Deze optie bepaalt of de \"Opnieuw proberen\" knop voor alle vragen wordt getoond, uitgeschakeld of voor iedere vraag afzonderlijk wordt geconfigureerd.",
           "options":[
             {
@@ -311,7 +311,7 @@
           ]
         },
         {
-          "label":"Override \"Retry\" button",
+          "label":"Overschrijf \"Opnieuw proberen\" knop",
           "description":"Deze functie is niet beschikbaar op iPad wanneer een YouTube video als bron wordt gebruikt",
           "options":[
             {
@@ -331,11 +331,11 @@
         },
         {
           "label":"Voorkom vooruitbladeren in een video",
-          "description":"Enabling this options will disable user video navigation through default controls."
+          "description":"Deze optie inschakelen voorkomt dat de gebruiker door de video navigeert a.d.h.v. de normale besturingselementen."
         },
         {
-          "label":"Deactivate sound",
-          "description":"Enabling this option will deactivate the video's sound and prevent it from being switched on."
+          "label":"Deactiveer geluid",
+          "description":"Deze optie inschakelen deactiveert het geluid van de video en voorkomt het inschakelen ervan."
         }
       ]
     },
@@ -423,39 +423,39 @@
           "default":"Terug"
         },
         {
-          "label":"Passed time hours",
+          "label":"Verstreken tijd uren",
           "default":"Uren"
         },
         {
-          "label":"Passed time minutes",
+          "label":"Verstreken tijd uren minuten",
           "default":"Minuten"
         },
         {
-          "label":"Passed time seconds",
+          "label":"Verstreken tijd uren seconden",
           "default":"Seconden"
         },
         {
-          "label":"Label for current time",
+          "label":"Label voor de huidige tijd",
           "default":"Current time:"
         },
         {
-          "label":"Label for total time",
+          "label":"Label voor totale tijd",
           "default":"Totale tijd:"
         },
         {
-          "label":"Text for explaining navigation hotkey",
-          "default":"Use key k for starting and stopping video at any time"
+          "label":"Tekst om de hotkey navigatie uit te leggen",
+          "default":"Gebruik de k-toets om de video te starten en te stoppen op elk tijdstip"
         },
         {
-          "label":"Text explaining that a single interaction with a name has come into view",
-          "default":"Interaction appeared:"
+          "label":"Tekst die uitlegt dat een enkele interactie met een naam in beeld komt.",
+          "default":"Interactie verschenen:"
         },
         {
-          "label":"Text for explaining that multiple interactions have come into view",
-          "default":"Multiple interactions appeared."
+          "label":"Tekst die uitlegt dat meerdere interacties op het scherm komen.",
+          "default":"Meerdere interacties verschenen."
         },
         {
-          "label":"Video is paused announcement",
+          "label":"Video is gepauzeerd aankondiging",
           "default":"Video is gepauzeerd"
         }
       ]
